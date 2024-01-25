@@ -1,0 +1,28 @@
+{
+  "name": "boiler",
+  "version": "0.1.0",
+  "description": "Js boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MaloGermond/boilerJS.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "boiler",
+    "javascript",
+    "js"
+  ],
+  "author": "Malo Germond",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaloGermond/boilerJS/issues"
+  },
+  "homepage": "https://github.com/MaloGermond/boilerJS#readme",
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  }
+}
