@@ -1,5 +1,5 @@
-const fs = require('fs-extra');
-const inquirer = require('inquirer');
+import fs from 'fs-extra'
+import inquirer from 'inquirer'
 
 async function copyTemplate() {
   // Ask for repository name and file types
@@ -12,7 +12,7 @@ async function copyTemplate() {
       type: 'checkbox',
       name: 'fileTypes',
       message: 'Select the file types required:',
-      choices: ['html', 'css', 'js'],
+      choices: ['html', 'css', 'js', 'gitignore'],
     },
   ]);
 

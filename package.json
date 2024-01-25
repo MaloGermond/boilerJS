@@ -4,7 +4,7 @@
   "description": "Js boilerplate",
   "main": "index.js",
   "scripts": {
-    "run": "node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,7 @@
     "javascript",
     "js"
   ],
+  "type": "module",
   "author": "Malo Germond",
   "license": "MIT",
   "bugs": {
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/MaloGermond/boilerJS#readme",
   "dependencies": {
-    "fs-extra": "^11.2.0"
+    "fs-extra": "^11.2.0",
+    "inquirer": "^9.2.12"
   }
 }
